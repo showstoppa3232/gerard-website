@@ -1,0 +1,29 @@
+{
+  "name": "gerard-sound-n-lights",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha ./tests/test.js",
+    "mocha": "./node_modules/.bin/mocha ./tests/test.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "csurf": "^1.9.0",
+    "debug": "~2.2.0",
+    "ejs": "^2.5.2",
+    "express": "~4.13.4",
+    "express-ejs-layouts": "^2.2.0",
+    "express-session": "^1.14.1",
+    "express-validator": "^2.20.10",
+    "morgan": "~1.7.0",
+    "nodemailer": "^2.6.4",
+    "nodemailer-smtp-transport": "^2.7.2",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "supertest": "^2.0.0"
+  }
+}
